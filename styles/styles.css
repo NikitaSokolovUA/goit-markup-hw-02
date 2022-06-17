@@ -1,0 +1,107 @@
+/* голубой цвет #2196F3; */
+/* черный цвет #212121*/
+/* серый цвет #757575*/
+/* белый цвет #FFFFFF*/
+
+:root{
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --basic-background-color: #2F303A;
+    --secondary-background-color: #F5F4FA;
+    --secondary-text-color:rgba(255, 255, 255, 0.6);
+}
+
+.body{
+    color:var(--primary-text-color);
+    background-color: var(--white-color);
+}
+ /*Убирает подчеркивание с ссылок*/
+.link{
+    text-decoration: none;
+}
+/*Убираем точку в списке*/
+.list{
+    list-style: none;
+}
+
+/* Шапка сайта*/
+.logo {
+    color:var(--title-text-color);
+}
+.logo .accent{
+    color:var(--accent-color);
+}
+
+/* навигация на другие страницы*/
+.site-nav .nav-link{
+    color:var(--title-text-color);
+}
+.site-nav .nav-link:focus,
+.nav-link:hover {
+    color:var(--accent-color);
+}
+
+/*связаться*/
+.contact-nav .contact-link{
+    color:var(--primary-text-color);
+}
+
+.contact-nav .contact-link:hover,
+.contact-link:focus{
+    color:var(--accent-color);
+}
+
+/* main */
+/*Hero*/
+.hero{
+    background-color:var(--basic-background-color);
+}
+.hero-title{
+    color: var(--white-color);
+}
+.hero-button{
+    background-color: var(--accent-color);
+    color:var(--white-color);
+}
+
+/* Цвет заголовков*/
+.section-title{
+    color:var(--title-text-color)
+}
+/*Team*/
+.team{
+    background-color: var(--secondary-background-color);
+}
+
+/*footer*/
+.footer{
+    background-color:var(--basic-background-color);
+}
+
+.footer-logo{
+    color:var(--white-color)
+}
+.footer-logo .footer-accent{
+    color:var(--accent-color)
+}
+
+.footer .footer-adress{
+    color:var(--white-color)
+}
+.footer .footer-contact{
+    color:var(--secondary-text-color);
+}
+
+/*Дизайн кнопок на портфолио*/
+.section .portfolio-button{
+    color:var(--title-text-color);
+    background-color:var(--secondary-background-color);
+}
+
+.section .portfolio-button:hover,
+.portfolio-button:focus{
+    color: var(--white-color);
+    background-color:var(--accent-color);
+}
