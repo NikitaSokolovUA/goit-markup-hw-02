@@ -49,9 +49,14 @@ body{
         line-height: 1.14;
         letter-spacing: 0.02em;
 }
+
 .site-nav .nav-link:focus,
 .nav-link:hover {
     color:var(--accent-color);
+}
+
+.site-nav .nav-link.current{
+    color: var(--accent-color);
 }
 
 /*связаться*/
@@ -76,11 +81,13 @@ body{
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .hero-button{
     cursor: pointer;
     background-color: var(--accent-color);
     color:var(--white-color);
+    font-family: inherit;
     font-weight: 700;
      font-size: 16px;
     line-height: 1.88;
@@ -156,6 +163,7 @@ body{
     cursor: pointer;
     color:var(--title-text-color);
     background-color:var(--secondary-background-color);
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -177,6 +185,5 @@ body{
 }
 
 .portfolio-text{
-    font-size: 16px;
     line-height: 1.88;
 }
