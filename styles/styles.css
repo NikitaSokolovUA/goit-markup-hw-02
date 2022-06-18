@@ -110,14 +110,12 @@ body{
     text-align: start;
 }
 .advantage-list .text{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
 /*Team*/
 .team{
     background-color: var(--secondary-background-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -133,7 +131,6 @@ body{
 /*footer*/
 .footer{
     background-color:var(--basic-background-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -178,7 +175,6 @@ body{
 }
 
 .portfolio-text{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
 }
