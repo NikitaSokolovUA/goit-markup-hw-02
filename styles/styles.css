@@ -78,12 +78,17 @@ body{
     letter-spacing: 0.06em;
 }
 .hero-button{
+    cursor: pointer;
     background-color: var(--accent-color);
     color:var(--white-color);
     font-weight: 700;
      font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+}
+
+.hero-button:hover, .hero-button:focus{
+    text-decoration: underline;
 }
 
 /* Цвет заголовков*/
@@ -149,6 +154,7 @@ body{
 
 /*Дизайн кнопок на портфолио*/
 .section .portfolio-button{
+    cursor: pointer;
     color:var(--title-text-color);
     background-color:var(--secondary-background-color);
     font-weight: 500;
